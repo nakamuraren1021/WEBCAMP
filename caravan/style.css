@@ -8,6 +8,7 @@ a {
 	text-decoration: none;
 }
 header {
+	position:relative;
 	width: 90%;
 	padding-top: 15px;
 	margin: 0 auto;
@@ -18,6 +19,17 @@ header .headline {
 	font-size: 32px;
 	text-align: center;
 }
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
+}
+
+.social i {
+	display: inline-block;
+	margin-left: 20px;
+}
+
 
 .nav-list {
 	text-align: center;
@@ -199,6 +211,10 @@ main {
 	content: "";
 	display: block;
 	clear: both;
+}
+header,nav,h2, .main-visual,footer {
+ font-family: Chalkduster,"Bradley Hand",Courier,"Segoe Print",sans-serif;
+
 }
 
 footer{
