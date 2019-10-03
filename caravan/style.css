@@ -9,7 +9,7 @@ a {
 }
 header {
 	width: 90%;
-	height: 15px 0;
+	padding-top: 15px;
 	margin: 0 auto;
 
 }
@@ -74,6 +74,22 @@ main {
 
 .blog-box {
 	padding-top: 50px;
+}
+
+.pagination{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.pagination p {
+	width: 30px;
+	height: 30px;
+	color: white;
+	background-color: #acabab;
+	display: inline-block;
+	border-radius: 3px;
+	margin: 0 5px 0 5px;
+	line-height: 30px;
 }
 
 .blog-item {
